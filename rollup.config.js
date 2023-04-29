@@ -225,6 +225,7 @@ export default cliargs => [
     ],
     external: externals.module,
     plugins: [
+      primedIgnore,
       alias({
         'video.js': path.resolve(__dirname, './src/js/video.js'),
         'videojs-contrib-quality-levels': path.resolve(__dirname, './node_modules/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.es.js'),
